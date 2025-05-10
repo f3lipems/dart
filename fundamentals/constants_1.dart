@@ -4,7 +4,7 @@ void main(List<String> args) {
   // PI * R^2
   const double PI = 3.1415;
   const double R = 10.0;
-  final double area = PI * R * R;
+  const double area = PI * R * R;
   print("Area of circle with radius $R is $area");
 
   stdout.write('Write a radius:');
