@@ -22,4 +22,21 @@ void main(List<String> args) {
 
   int remainder = a % b;
   print(remainder);
+
+  // Logical Operators
+  // && (and), || (or), ! (not)
+  bool x = true;
+  bool y = false;
+
+  bool and = x && y;
+  print(and);
+
+  bool or = x || y;
+  print(or);
+
+  bool xor = x ^ y;
+  print(xor);
+
+  bool not = !x; // Unary operator / Prefix
+  print(not);
 }
