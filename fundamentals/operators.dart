@@ -1,0 +1,25 @@
+void main(List<String> args) {
+  // Arithmetic Operators (Binary / Infix)
+  // +, -, *, /, ~/ (integer division), % (modulus)
+
+  int a = 10;
+  int b = 3;
+  
+  int sum = a + b;
+  print(sum);
+
+  int difference = a - b;
+  print(difference);
+
+  int product = a * b;
+  print(product);
+
+  double quotient = a / b;
+  print(quotient);
+
+  int quotientInt = a ~/ b;
+  print(quotientInt);
+
+  int remainder = a % b;
+  print(remainder);
+}
